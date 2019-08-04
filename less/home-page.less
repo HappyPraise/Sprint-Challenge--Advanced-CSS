@@ -1,6 +1,14 @@
 // Home Content
 .main-header{
+  display: flex;
+  flex-direction: column;
   margin-left: 40rem;
+
+  @media @phone{
+    max-width: 500px;
+    width: 95%;
+    margin-left: 1.5rem;
+  }
 }
 
 .real-btn{
@@ -9,7 +17,21 @@
   border-radius:7%;
   background-color: grey;
   font-weight: bold;
+  color: white;
   font-size: 15px;
+
+  @media @phone{
+    width: 350px;
+    height: 50px;
+    margin-right: 14px;
+    font-size: 19px;
+  }
+
+  &:hover{
+    background-color: @btn-bg-color;
+    color: white;
+    cursor: pointer;
+  }
 }
 
 .home {
@@ -30,6 +52,21 @@
     display: flex;
     flex-wrap: wrap;
     width: 100%;
+
+    @media @phone{
+      .blast{
+        height: 350px;
+        width: 100%;
+      }
+      .sky{
+        display: none;
+      }
+
+      .launch{
+        display: none;
+      }
+
+    }
 
     img {
       width: 28%;
@@ -58,8 +95,18 @@
     display: flex;
     justify-content: center;
 
+    @media @phone{
+      display: flex;
+      flex-direction: column-reverse;
+    }
+
     .walk-text {
       width: 50%;
+
+      @media @phone{
+        width: 100%;
+        margin-top: 6rem;
+      }
 
       h3 {
         margin-bottom: 10px;
@@ -68,14 +115,17 @@
       p {
         margin-bottom: 26px;
       }
-
-      .btn {
-      }
     }
 
     .walk-img {
       width: 46%;
       margin-left: 4%;
+
+      @media @phone{
+        width: 110%;
+        margin-right: 35px;
+      }
+      }
       
       img {
         width: 100%;
@@ -84,4 +134,4 @@
       }
     }
   }
-}// home
+// home

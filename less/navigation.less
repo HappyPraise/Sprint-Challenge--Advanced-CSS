@@ -2,8 +2,8 @@
 
 .easy-nav{
 	text-align: center;
-	margin-top: 20px;
-	margin-bottom: 20px;
+	margin-top: @margin-top;
+	margin-bottom: @margin-bottom;
 
 	h1{
 		font-size: 5rem;
@@ -16,11 +16,22 @@
 	margin-left: 59rem;
 	margin-bottom: 20px;
 
+	@media @phone{
+		display: flex;
+		flex-direction: row;
+		margin-left: 1.5rem;
+	}
+
 	a{
 		font-size: 2rem;
 		margin-right: 3rem;
 		text-decoration: none;
 		color: black;
+
+		@media @phone{
+			margin-right: 4rem
+			border: 1px red solid;
+		}
 	}
 }
 
