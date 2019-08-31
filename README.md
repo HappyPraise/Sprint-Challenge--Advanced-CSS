@@ -32,16 +32,34 @@ Demonstrate your understanding of this week's concepts by answering the followin
 
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
-1. What is the difference between an adaptive website and a fully responsive website?responsive design is applied when changing size of a page inorder to adapt resolutions via in css media queries, content, and other technologies. 
-Adaptive design is about creating different pages in accordance with the specific size of a devicee.It will showcase corresponding page according to the screen resolution of the device. This will display different pages based on different screen resolution.
+1. What is the difference between an adaptive website and a fully responsive website?
+
+
+the two methods differ is in their delivery of the responsive/adaptive structures: RWD relying on flexible and fluid grids, and AWD relying on predefined screen sizes. One of the main distinctions between the two is that RWD might take more code and implementation strategies with the fluid grids, CSS, and flexible foundations, while AWD has a streamlined, layered approach, which utilizes scripting to assist with adapting to various devices and screen sizes.
+
 
 2. Describe what it means to be mobile first vs desktop first.
 
-3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units? it defines the base font size in rems similar to using pixels
 
-4. How would you describe preprocessing to someone new to CSS? preprocessing is used to help you when you have a very intricate website that uses same colors and classes with preprocessors like SASS and LESS we can do this much more quickly by only changing one things instead of changing 20 different this in a website.
+Desktop: a common responsive approach works with the desktop browser as the basis, and offers alternatives, scaled down versions for other device browser sizes. That works via CSS media queries, which check the browser size and adjust the layout and styling according to that.
 
-5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble? my favorite would have to be mixins and the concept that gave me trouble was how to use the media query mixin
+responsive: Mobile first means content first. Fancy hover menus, sliders, animations and all the clutter is taken away at the beginning, and instead of focusing on effects what is being considered is how to display the content in the most rational way. If there is a need for a visually stunning web appearance, the eye candy can of course be added especially for desktop and tablet versions.
+
+3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units? 
+
+62.5% in rem units it's 10 pixels in rem units.
+
+
+4. How would you describe preprocessing to someone new to CSS? 
+
+a separate stylesheet language with advanced features that developers can leverage to create leaner, faster products with more features while spending less time on the whole process than they would with plain CSS. 
+
+
+5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble? 
+
+My favorite would have to be mixins and the concept that gave me. The trouble was how to use the media query mixin
+
+
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 

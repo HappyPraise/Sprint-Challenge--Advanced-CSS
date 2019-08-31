@@ -172,7 +172,7 @@ p {
 .top-nav {
   display: flex;
   flex-direction: row;
-  margin-left: 59rem;
+  margin-left: 45rem;
   margin-bottom: 20px;
 }
 @media (max-width: 500px) {
@@ -207,7 +207,7 @@ footer {
 .main-header {
   display: flex;
   flex-direction: column;
-  margin-left: 40rem;
+  margin-left: 27rem;
 }
 @media (max-width: 500px) {
   .main-header {
